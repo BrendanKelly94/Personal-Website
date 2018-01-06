@@ -1,8 +1,12 @@
 body {
   padding: 50px;
   font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  background-color: #EEF0F2;
 }
 
-a {
-  color: #00B7FF;
+navbar{
+  background-color: #242423;
+  opacity: 50%;
+  position: absolute;
+  top:0;
 }
