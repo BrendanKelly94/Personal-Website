@@ -1,12 +1,21 @@
-body {
-  padding: 50px;
-  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
-  background-color: #EEF0F2;
+body{
+background-color: #EEF0F2 !important;
 }
 
-navbar{
+nav.navbar{
   background-color: #242423;
   opacity: 50%;
   position: absolute;
   top:0;
+  left:0;
+  width:100%;
+}
+
+#welcome{
+  background-color: #EEF0F2;
+  margin-top: 10%;
+}
+
+div.jumbotron{
+  background-color: #EEF0F2;
 }
