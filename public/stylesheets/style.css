@@ -1,3 +1,9 @@
+@media(min-width: 2000px) and (max-width: 3000px){
+  #section2 .container{
+    width: 600px !important;
+  }
+}
+
 @media (min-width: 992px) and (max-width: 3000px){
   #welcome{
     background-color: transparent;
@@ -68,6 +74,7 @@
 
 #section2 div.carousel-caption p{
   font-size: 16px;
+  color:#343432;
 }
 
 #section3 .aboutText{
@@ -175,6 +182,11 @@
 
   }
 
+  #section2 div.carousel-caption p{
+    font-size: 16px;
+    color:#343432;
+  }
+
   #section3 .aboutText{
     position:absolute;
     margin-left: 10%;
@@ -256,9 +268,10 @@
     width: 300px;
 
 }
-  #myCarousel{
-
-  }
+#section2 div.carousel-caption p{
+  font-size: 16px;
+  color:#343432;
+}
     #section3 .aboutText{
       position:absolute;
       margin-left: 10%;
@@ -485,4 +498,8 @@ div.jumbotron h1{
 
 .cbuttons i{
   float:left;
+}
+
+#caption2{
+  color: #fff !important;
 }
