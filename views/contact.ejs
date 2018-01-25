@@ -3,16 +3,47 @@
     <title><%= title %></title>
     <link rel='stylesheet' href='/stylesheets/style.css' />
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <link href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet">
+      <link href="https://fonts.googleapis.com/css?family=Pontano+Sans" rel="stylesheet">
   </head>
   <body>
     <% include ./partials/navbar.ejs %>
-    <div class="container" id = "welcome">
-      <div class="jumbotron">
-        <h1>Brendan Kelly</h1>
-        <p>professional website</p>
+    <h1> Contact </h1>
+    <div class = "container" id = "contact-buttons">
+      <div class = "row">
+        <div class = "col-md-12 center-block">
+          <button type="button" class="btn btn-default center-block cButtons" id = "resume"><i class="icon-download-alt icon-2x"></i><div>Resume</div></button>
+        </div>
+      </div>
+
+      <div class = "row">
+        <div class = "col-md-12 center-block">
+          <button type="button" class="btn btn-default center-block cButtons" id = "github"><i class="icon-github-sign icon-2x"></i><div>Github</div></button>
+
+        </div>
+      </div>
+
+      <div class = "row">
+        <div class = "col-md-12 center-block">
+          <button type="button" class="btn btn-default center-block cButtons" id = "linkedin"><i class="icon-linkedin-sign icon-2x"></i><div>Linked-in</div></button>
+        </div>
       </div>
     </div>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script>
+        $("#resume").click(function(){
+          location.href = "images/resumeJan18.pdf";
+        });
+
+        $("#github").click(function(){
+          location.href = "https://github.com/BrendanKelly94";
+        });
+
+        $("#linkedin").click(function(){
+          location.href = "https://www.linkedin.com/in/bren-j-kelly";
+        });
+    </script>
+    <script src = "/javascripts/highlight.js"></script>
   </body>
 </html>
