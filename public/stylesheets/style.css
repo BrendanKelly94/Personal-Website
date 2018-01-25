@@ -1,6 +1,10 @@
 @media(min-width: 2000px) and (max-width: 3000px){
   #section2 .container{
-    width: 600px !important;
+    width: 750px !important;
+  }
+
+  #section2 .aboutText{
+    margin-top: 12% !important;
   }
 }
 
