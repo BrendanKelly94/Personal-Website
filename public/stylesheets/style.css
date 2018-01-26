@@ -1,14 +1,116 @@
-@media(min-width: 2000px) and (max-width: 3000px){
+@media(min-width: 1201px){
+
+  #welcome{
+    background-color: transparent;
+    margin-top: 10%;
+    text-align:center;
+  }
+
+  .img-thumbnail{
+  position:absolute;
+  margin-left: 7%;
+  margin-top: 15%;
+  width: 400px;
+  border:1px solid #4d4d4c !important;
+  border-radius: 6px !important;
+  padding: 2px !important;
+  }
+
+  .division .center-block{
+  width: 80%;
+  height: 1px;
+  background-color: #242423;
+  opacity: 50%;
+  }
+
+  #section1 p{
+  font-size: x-large;
+  margin-left:42%;
+  margin-right: 2%;
+
+  }
+
+  #section1 h1{
+  text-align:left;
+  font-size: 40px;
+  margin-bottom: 40px;
+  margin-left:42%;
+  font-weight:300;
+  }
+  .aboutText{
+  margin-top: 15%;
+  color: #343432;
+  }
+
+  #section2 .aboutText{
+  position:absolute;
+  margin-left: 5%;
+  margin-right: 50%;
+  margin-top: 7%;
+  color: #343432;
+  }
+
+  #section2 h1{
+  font-size: 40px;
+  margin-bottom: 5%;
+  text-align: left;
+  }
+
+  #section2 p{
+  font-size: x-large;
+  }
+
+  #section2 .container{
+  width: 600px;
+  float: right;
+  margin-right: 2%;
+  margin-top: 15%;
+
+  }
+
+  #section2 div.carousel-caption p{
+  font-size: 16px;
+  color:#343432;
+  }
+
+  #section3 .aboutText{
+  position:absolute;
+  margin-left: 5%;
+  margin-right: 30%;
+  margin-top: 10%;
+  color: #343432;
+  }
+
+  #section3 h1{
+  font-size: 40px;
+  text-align: left;
+  margin-bottom: 10%;
+  }
+
+  #section3 ul li{
+  margin-bottom: 30px;
+  font-size: x-large;
+  }
+
+  .cbuttons{
+  width: 20%;
+  }
+
+  .cbuttons div{
+  font-size: 16px;
+  padding-top: 3px;
+  }
+/*
   #section2 .container{
     width: 750px !important;
   }
 
   #section2 .aboutText{
     margin-top: 12% !important;
-  }
+  }*/
 }
 
-@media (min-width: 992px) and (max-width: 3000px){
+@media (min-width: 992px) and (max-width: 1200px){
   #welcome{
     background-color: transparent;
     margin-top: 10%;
@@ -33,16 +135,17 @@
 }
 
 #section1 p{
-  font-size: xx-large;
-  margin-left:40%;
-  margin-right: 10%;
+  font-size: x-large;
+  margin-left:50%;
+  margin-right: 2%;
+
 }
 
 #section1 h1{
   text-align:left;
-  font-size: 40px;
+  font-size: 35px;
   margin-bottom: 40px;
-  margin-left:40%;
+  margin-left:50%;
   font-weight:300;
 }
 .aboutText{
@@ -54,25 +157,25 @@
   position:absolute;
   margin-left: 5%;
   margin-right: 50%;
-  margin-top: 7%;
+  margin-top: 15%;
   color: #343432;
 }
 
 #section2 h1{
-  font-size: 40px;
+  font-size: 30px;
   margin-bottom: 5%;
   text-align: left;
 }
 
 #section2 p{
-  font-size: x-large;
+  font-size: 20px;
 }
 
 #section2 .container{
-  width: 600px;
+  width: 500px;
   float: right;
-  margin-right: 7%;
-  margin-top: 15%;
+  margin-right: 2%;
+  margin-top: 25%;
 
 }
 
@@ -90,14 +193,14 @@
 }
 
 #section3 h1{
-  font-size: 40px;
+  font-size: 30px;
   text-align: left;
   margin-bottom: 10%;
 }
 
 #section3 ul li{
   margin-bottom: 30px;
-  font-size: x-large;
+  font-size: 26px;
 }
 
 .cbuttons{
@@ -112,7 +215,7 @@
 
 }
 
-@media (min-width: 577px) and (max-width: 991px) {
+@media (min-width: 769px) and (max-width: 991px) {
   #welcome{
     background-color: transparent;
     margin-top: 10%;
@@ -139,7 +242,7 @@
   #section1 p{
     font-size: 20px;
     margin-left:15%;
-    margin-right: 10%;
+    margin-right: 2%;
   }
 
   #section1 h1{
@@ -160,9 +263,9 @@
 
   #section2 .aboutText{
     position:absolute;
-    margin-left: 5%;
-    margin-right: 50%;
-    margin-top: 2%;
+    margin-left: 2%;
+    margin-right: 42%;
+    margin-top: 7%;
 
 
     color: #343432;
@@ -179,9 +282,116 @@
   }
 
   #section2 .container{
-    width: 400px;
+    width: 300px;
     float: right;
+    margin-right: 2%;
+    margin-left: 2%;
+    margin-top: 25%;
+
+  }
+
+  #section2 div.carousel-caption p{
+    font-size: 16px;
+    color:#343432;
+  }
+
+  #section3 .aboutText{
+    position:absolute;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 15%;
+    color: #343432;
+  }
+
+  #section3 h1{
+    font-size: 30px;
+    text-align: left;
+    margin-bottom: 7%;
+  }
+
+  #section3 ul li{
+    margin-bottom: 20px;
+    font-size: 20px;
+  }
+
+  .cbuttons{
+    width: 30%;
+  }
+  .cbuttons div{
+    font-size: 16px;
+    padding-top: 3px;
+  }
+}
+
+@media (min-width:577px) and (max-width:768px){
+  #welcome{
+    background-color: transparent;
+    margin-top: 10%;
+    text-align:center;
+  }
+
+  .division .center-block{
+    width: 850px;
+    height: 1px;
+    background-color: #242423;
+    opacity: 50%;
+  }
+
+  .img-thumbnail{
+    position:absolute;
+    margin-left: 7%;
+    margin-top: 15%;
+    width: 250px;
+    border:1px solid #4d4d4c !important;
+    border-radius: 6px !important;
+    padding: 2px !important;
+  }
+
+  #section1 p{
+    font-size: 20px;
+    margin-left:25%;
+    margin-right: 2%;
+  }
+
+  #section1 h1{
+    text-align:left;
+    font-size: 30px;
+    margin-bottom: 7%;
+    margin-left:25%;
+    font-weight:300;
+  }
+
+  .aboutText{
+    position:absolute;
+    margin-left: 40%;
     margin-right: 5%;
+    margin-top: 15%;
+    color: #343432;
+  }
+
+  #section2 .aboutText{
+    position:absolute;
+    margin-left: 2%;
+    margin-right: 2%;
+    margin-top: 5%;
+
+
+    color: #343432;
+  }
+
+  #section2 h1{
+    font-size:26px;
+    margin-bottom: 7%;
+    text-align:center;
+  }
+
+  #section2 p{
+    font-size: 20px;
+  }
+
+  #section2 .container{
+    width: 300px;
+    float: none;
     margin-top: 15%;
 
   }
@@ -266,30 +476,39 @@
     color: #343432;
   }
 
+  #section2 h1{
+    font-size:24px;
+    margin-bottom: 7%;
+    text-align:center;
+  }
+
+  #section2 p{
+    font-size: 18px;
+  }
 
   #section2 .container{
     margin-top: 10%;
     width: 300px;
 
-}
-#section2 div.carousel-caption p{
-  font-size: 16px;
-  color:#343432;
-}
-    #section3 .aboutText{
-      position:absolute;
-      margin-left: 10%;
-      margin-right: 10%;
-
-      margin-top: 20%;
-      color: #343432;
     }
+  #section2 div.carousel-caption p{
+      font-size: 16px;
+      color:#343432;
+    }
+  #section3 .aboutText{
+    position:absolute;
+    margin-left: 2%;
+    margin-right: 2%;
 
-    #section3 h1{
+    margin-top: 20%;
+    color: #343432;
+   }
+
+  #section3 h1{
       font-size: 24px;
       text-align: center;
       margin-bottom: 7%;
-    }
+  }
 
     #section3 ul li{
       margin-bottom: 20px;
@@ -339,7 +558,7 @@ h1{
   float:right;
 }
 
-.row .col-xs-12{
+.row .col-xs-12, .row .col-sm-12{
   width:auto;
 }
 
