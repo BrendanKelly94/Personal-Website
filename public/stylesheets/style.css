@@ -106,6 +106,12 @@
   font-size: 16px;
   padding-top: 3px;
   }
+
+  #contact-buttons{
+    position: absolute;
+    margin-top: 15%;
+    width:100%;
+  }
 }
 
 
@@ -218,6 +224,12 @@
   .cbuttons div{
   font-size: 16px;
   padding-top: 3px;
+  }
+
+  #contact-buttons{
+    position: absolute;
+    margin-top: 15%;
+    width:100%;
   }
 /*
   #section2 .container{
@@ -338,6 +350,12 @@
   padding-top: 3px;
  }
 
+ #contact-buttons{
+   position: absolute;
+   margin-top: 25%;
+   width:100%;
+ }
+
 
 }
 
@@ -454,6 +472,12 @@
     font-size: 16px;
     padding-top: 3px;
   }
+
+  #contact-buttons{
+    position: absolute;
+    margin-top: 25%;
+    width:100%;
+  }
 }
 
 @media (min-width:577px) and (max-width:768px){
@@ -567,6 +591,12 @@
     font-size: 16px;
     padding-top: 3px;
   }
+
+  #contact-buttons{
+    position: absolute;
+    margin-top: 25%;
+    width:100%;
+  }
 }
 
 @media(max-width: 576px){
@@ -674,6 +704,12 @@
 
     .cbuttons i{
       margin-top: 7px;
+    }
+
+    #contact-buttons{
+      position: absolute;
+      margin-top: 50%;
+      width:100%;
     }
   }
 
@@ -840,11 +876,6 @@ div.jumbotron h1{
 
 /*contact styles*/
 
-#contact-buttons{
-  position: absolute;
-  bottom: 50%;
-  width:100%;
-}
 
 #contact-buttons button{
   margin-top: 20px;
