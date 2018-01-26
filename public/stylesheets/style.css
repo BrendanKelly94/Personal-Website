@@ -1,4 +1,109 @@
-@media(min-width: 1201px){
+@media(min-width:1501px) and (max-width: 3000px){
+  #welcome{
+    background-color: transparent;
+    margin-top: 10%;
+    text-align:center;
+  }
+
+  .img-thumbnail{
+  position:absolute;
+  margin-left: 7%;
+  margin-top: 15%;
+  width: 400px;
+  border:1px solid #4d4d4c !important;
+  border-radius: 6px !important;
+  padding: 2px !important;
+  }
+
+  .division .center-block{
+  width: 80%;
+  height: 1px;
+  background-color: #242423;
+  opacity: 50%;
+  }
+
+  #section1 p{
+  font-size: x-large;
+  margin-left:42%;
+  margin-right: 2%;
+
+  }
+
+  #section1 h1{
+  text-align:left;
+  font-size: 40px;
+  margin-bottom: 40px;
+  margin-left:42%;
+  font-weight:300;
+  }
+  .aboutText{
+  margin-top: 15%;
+  color: #343432;
+  }
+
+  #section2 .aboutText{
+  position:absolute;
+  margin-left: 5%;
+  margin-right: 50%;
+  margin-top: 10%;
+  color: #343432;
+  }
+
+  #section2 h1{
+  font-size: 40px;
+  margin-bottom: 5%;
+  text-align: left;
+  }
+
+  #section2 p{
+  font-size: x-large;
+  }
+
+  #section2 .container{
+  width: 700px;
+  float: right;
+  margin-right: 2%;
+  margin-top: 15%;
+
+  }
+
+  #section2 div.carousel-caption p{
+  font-size: 16px;
+  color:#343432;
+  }
+
+  #section3 .aboutText{
+  position:absolute;
+  margin-left: 5%;
+  margin-right: 30%;
+  margin-top: 10%;
+  color: #343432;
+  }
+
+  #section3 h1{
+  font-size: 40px;
+  text-align: left;
+  margin-bottom: 10%;
+  }
+
+  #section3 ul li{
+  margin-bottom: 30px;
+  font-size: x-large;
+  }
+
+  .cbuttons{
+  width: 20%;
+  }
+
+  .cbuttons div{
+  font-size: 16px;
+  padding-top: 3px;
+  }
+}
+
+
+
+@media (min-width: 1201px) and (max-width: 1500px){
 
   #welcome{
     background-color: transparent;
@@ -46,7 +151,7 @@
   position:absolute;
   margin-left: 5%;
   margin-right: 50%;
-  margin-top: 7%;
+  margin-top: 5%;
   color: #343432;
   }
 
@@ -157,7 +262,7 @@
   position:absolute;
   margin-left: 5%;
   margin-right: 50%;
-  margin-top: 5%;
+  margin-top: 15%;
   color: #343432;
 }
 
